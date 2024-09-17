@@ -1,0 +1,14 @@
+class Person:
+    def __init__(emmanuel, name, age, gender):
+        self.name = name
+        self.age = age
+        self.gender = gender
+
+    def introduce(emmanuel):
+        print(f"Hello, my name is {emmanuel.name}. I am {emmanuel.age} years old and my gender is {emmanuel.gender}.")
+
+# Create an instance of the Person class
+person_instance = Person("Alice", 30, "Female")
+
+# Call the introduce method to display the person's information
+person_instance.introduce()
